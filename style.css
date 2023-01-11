@@ -1,0 +1,26 @@
+body{
+	margin:0px;
+	background: #E5E5E5;
+}
+
+.header{
+	width: 1265px;
+	height: 116px;
+	display: flex;
+	justify-content: space-between;
+    margin: 4px 87px 0px 87px;
+}
+
+.logo-mariela{
+	margin:33px 0 0 25px;
+}
+
+.links{
+	margin:46px 52px 0 0px;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Cormorant Garamond';
+	font-size:24px;
+	
+	color: #B08EAD;
+}

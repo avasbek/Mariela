@@ -146,3 +146,37 @@ p, h1, a{
 	margin: 16px 0 0 0;
 	text-align: center;	
 }
+
+.about-designer{
+	padding: 0 18px 0 18px;
+	margin: 0 0 0 130px;
+	width: 1215px;
+	height: 426px;
+   	display: flex;
+   	justify-content: space-between;
+}
+
+.about-designer div{
+   	margin:50px 18px 0 18px;
+   	width: 368px;
+   	height: 427px;
+   	background: #CEB3CB;
+}
+
+.about-designer p{
+	margin: 23px 0 0 23px;
+	font-family: 'Cormorant Garamond';
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.about-designer a{
+	margin: 6px 0 0 23px;
+	font-family: 'Cormorant Garamond';
+	font-size: 17px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+

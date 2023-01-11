@@ -1,6 +1,11 @@
 body{
 	margin:0px;
 	background: #E5E5E5;
+
+}
+
+p, h1, a{
+	margin:0px;
 }
 
 .header{
@@ -21,6 +26,61 @@ body{
 	text-decoration: none;
 	font-family: 'Cormorant Garamond';
 	font-size:24px;
-	
+	line-height: 30px;
 	color: #B08EAD;
+}
+
+.intro{
+  height: 817px;
+  background: linear-gradient( #C9ADC6 60%, #D6BBD3 40%);
+}
+.in-intro{
+	display: flex;
+	position: relative;
+}
+
+.intro-img{
+	margin: 72px 0 0 178px;
+}
+
+.intro-square{
+	position: relative;
+	top: 182px;
+	right: 113px;
+	width: 425px;
+	height: 450px;
+	background: #B08EAD;
+}
+
+.intro-square div{
+	width: 280px;
+	height: 202px;
+	margin:124px 104px 124px 40px;
+}
+
+.intro-square p{
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.intro-square h1{
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 55px;
+	color: #FFFFFF;
+}
+
+.intro-square a{
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }

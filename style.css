@@ -1,11 +1,20 @@
 body{
 	margin:0px;
 	background: #E5E5E5;
-
+	overflow-x:hidden;
 }
 
 p, h1, a{
 	margin:0px;
+}
+
+.sticky{
+	position: sticky;
+	z-index: 1;
+	top: 0px;
+	max-width: auto;
+	height: 120px;
+	background: #E5E5E5;
 }
 
 .header{
@@ -83,4 +92,58 @@ p, h1, a{
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	color: #FFFFFF;
+}
+
+.some-information{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.some-information div{
+	width: 789px;
+	height: 181px;
+	margin: 75px 0 0 0;
+}
+
+.some-information h6{
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #B99BB6;
+}
+
+.sub-text{
+	margin:13px 0 0 0;
+	font-family: 'Cormorant Garamond';
+	font-size: 26px;
+	line-height: 38px;
+	text-align: center;
+	color: #5F4D5D;
+}
+
+.learn-more{
+	display: inline-block;
+	width: 141px;
+	height: 45px;
+	font-family: 'Roboto';
+	font-size: 11px;
+	line-height: 15px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	border: 1px solid #B99BB6;
+	border-radius: 25px;
+	margin:17px 0 0 324px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #B99BB6;
+}
+
+.learn-more p {
+	margin: 16px 0 0 0;
+	text-align: center;	
+
 }

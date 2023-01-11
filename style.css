@@ -101,9 +101,9 @@ p, h1, a{
 }
 
 .some-information div{
-	width: 789px;
+	margin: 75px 0 50px 0;
+	width: 781px;
 	height: 181px;
-	margin: 75px 0 0 0;
 }
 
 .some-information h6{
@@ -145,5 +145,4 @@ p, h1, a{
 .learn-more p {
 	margin: 16px 0 0 0;
 	text-align: center;	
-
 }

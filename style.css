@@ -154,8 +154,6 @@ p, h1, a, h6, section{
 	height: 426px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  justify-content: center;
 }
 
 .about-designer div{
@@ -183,18 +181,17 @@ p, h1, a, h6, section{
 }
 
 .card-1{
+	width: 1215px;
 	height: 457px;	
-	margin-top:70px;
+	margin:70px 113px 0 112px;
 	display: flex;
 	justify-content: space-between;
 	border-bottom:2px solid #D7B7D4 ;
 }
 
 .card-1 h6{
-	margin: 88px 0 10px 175px;
+	margin: 88px 0 10px 60px;
 	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 30px;
 	letter-spacing: 1.5px;
@@ -203,7 +200,7 @@ p, h1, a, h6, section{
 }
 
 .card-1 p{
-	margin:0 0 0 175px;
+	margin:0 0 0 60px;
 	font-family: 'Cormorant Garamond';
 	font-style: normal;
 	font-weight: 400;
@@ -213,5 +210,94 @@ p, h1, a, h6, section{
 }
 
 .card-1 img{
+	margin: 0 0 41px 0;
+}
+
+.card-2{
+	width: 1215px;
+	height: 505px;
+	margin:40px 0 0 113px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom:2px solid #D7B7D4 ;
+}
+
+.card-2 img{
+	margin: 0 0 0 31px;
+}
+
+.card-2 h6{
+	margin: 100px 484px 10px 0 ;
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #B99BB6;
+}
+
+.card-2-txt{
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #5F4D5D;
+}
+
+.learn-more-card-2{
+	display: inline-block;
+	width: 141px;
+	height: 45px;
+	font-family: 'Roboto';
+	font-size: 11px;
+	line-height: 15px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	border: 1px solid #B99BB6;
+	border-radius: 25px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #B99BB6;
+}
+
+.learn-more-card-2 p {
+	margin: 16px 0 0 0;
+	text-align: center;	
+}
+
+.card-2 img{
+	margin: 0 0 41px 0;
+}
+
+.card-3{
+	width: 1215px;
+	height: 457px;	
+	margin:40px 113px 0 112px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom:2px solid #D7B7D4;
+}
+
+.card-3 h6{
+	margin: 88px 0 10px 60px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #B99BB6;
+}
+
+.card-3 p{
+	margin: 0 0 0 60px;
+	font-family: 'Cormorant Garamond';
+	font-size: 24px;
+	line-height: 30px;
+	color: #5F4D5D;
+}
+
+.card-3 img{
 	margin: 0 0 41px 0;
 }

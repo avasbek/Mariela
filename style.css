@@ -4,7 +4,7 @@ body{
 	overflow-x:hidden;
 }
 
-p, h1, a{
+p, h1, a, h6, section{
 	margin:0px;
 }
 
@@ -149,15 +149,17 @@ p, h1, a{
 
 .about-designer{
 	padding: 0 18px 0 18px;
-	margin: 0 0 0 130px;
+	margin: 0 0 0px 130px;
 	width: 1215px;
 	height: 426px;
-   	display: flex;
-   	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-designer div{
-   	margin:50px 18px 0 18px;
+   	margin:0px 18px 0 18px;
    	width: 368px;
    	height: 427px;
    	background: #CEB3CB;
@@ -180,3 +182,36 @@ p, h1, a{
 	text-decoration: none;
 }
 
+.card-1{
+	height: 457px;	
+	margin-top:70px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom:2px solid #D7B7D4 ;
+}
+
+.card-1 h6{
+	margin: 88px 0 10px 175px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #B99BB6;
+}
+
+.card-1 p{
+	margin:0 0 0 175px;
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #5F4D5D;
+}
+
+.card-1 img{
+	margin: 0 0 41px 0;
+}

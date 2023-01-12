@@ -354,6 +354,11 @@ p, h1, a, h6, section{
 	margin: 0 341px 0 341px;
 }
 
+.icon-footer{
+	margin-left: 20px;
+}
+
+
 .part-1 h6{
 	font-family: 'Cormorant Garamond';
 	font-style: normal;

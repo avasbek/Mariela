@@ -323,6 +323,8 @@ p, h1, a, h6, section{
 .cushions h6{
 	margin: 9px 0 0 0 ;
 	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
 	font-size: 24px;
 	line-height: 30px;
 	text-align: center;
@@ -339,4 +341,61 @@ p, h1, a, h6, section{
 	color: #B0B0B0;
 }
 
+.footer{
+	margin: 75px 0 0 0;
+	background: linear-gradient( #D6BBD3 60%, #C9ADC6 40%);
+	height: 371px;
+}
 
+.part-1{
+	display: flex;
+	justify-content: space-between;
+	padding:46px 0 0 0;
+	margin: 0 341px 0 341px;
+}
+
+.part-1 h6{
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.part-1 p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.footer-nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 27px 57px 0px 487px;
+}
+
+.logo-mariela-footer{
+	margin: 27px 0 0 25px;
+}
+
+.links-main-footer{
+	list-style-type: none;
+	margin: 41px 300px 0 0;
+}
+
+.links-footer{
+	margin-right: 35px;
+	text-decoration: none;
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
